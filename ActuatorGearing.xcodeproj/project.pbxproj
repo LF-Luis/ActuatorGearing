@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAE6365A23DAB86A0059E34C /* InvoluteFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6363C23DAB8670059E34C /* InvoluteFunction.swift */; };
+		EAE6365B23DAB86A0059E34C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6363D23DAB8670059E34C /* main.swift */; };
+		EAE6365C23DAB86A0059E34C /* RunCalculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6363E23DAB8680059E34C /* RunCalculations.swift */; };
+		EAE6365D23DAB86A0059E34C /* HelicalGear.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6363F23DAB8680059E34C /* HelicalGear.swift */; };
+		EAE6365E23DAB86A0059E34C /* InterlGearEq.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6364023DAB8680059E34C /* InterlGearEq.swift */; };
+		EAE6365F23DAB86A0059E34C /* GearMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6364123DAB8680059E34C /* GearMesh.swift */; };
+		EAE6366E23DAB86A0059E34C /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6365123DAB8680059E34C /* FileHelper.swift */; };
+		EAE6366F23DAB86A0059E34C /* SpurGearEq.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6365223DAB8680059E34C /* SpurGearEq.swift */; };
+		EAE6367023DAB86A0059E34C /* HelicalGearEq.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6365323DAB8690059E34C /* HelicalGearEq.swift */; };
+		EAE6367123DAB86A0059E34C /* Gear.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6365423DAB8690059E34C /* Gear.swift */; };
+		EAE6367223DAB86A0059E34C /* GearEq.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6365523DAB8690059E34C /* GearEq.swift */; };
+		EAE6367323DAB86A0059E34C /* NormalHelicalGearEq.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6365623DAB8690059E34C /* NormalHelicalGearEq.swift */; };
+		EAE6367423DAB86A0059E34C /* SpurGear.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6365723DAB8690059E34C /* SpurGear.swift */; };
+		EAE6367523DAB86A0059E34C /* AngleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6365823DAB86A0059E34C /* AngleHelper.swift */; };
+		EAE6367623DAB86A0059E34C /* StressEquations.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6365923DAB86A0059E34C /* StressEquations.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EAE6361123DAB80D0059E34C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EAE6361323DAB80D0059E34C /* ActuatorGearing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ActuatorGearing; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE6363C23DAB8670059E34C /* InvoluteFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoluteFunction.swift; sourceTree = "<group>"; };
+		EAE6363D23DAB8670059E34C /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EAE6363E23DAB8680059E34C /* RunCalculations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunCalculations.swift; sourceTree = "<group>"; };
+		EAE6363F23DAB8680059E34C /* HelicalGear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelicalGear.swift; sourceTree = "<group>"; };
+		EAE6364023DAB8680059E34C /* InterlGearEq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterlGearEq.swift; sourceTree = "<group>"; };
+		EAE6364123DAB8680059E34C /* GearMesh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GearMesh.swift; sourceTree = "<group>"; };
+		EAE6365123DAB8680059E34C /* FileHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
+		EAE6365223DAB8680059E34C /* SpurGearEq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpurGearEq.swift; sourceTree = "<group>"; };
+		EAE6365323DAB8690059E34C /* HelicalGearEq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelicalGearEq.swift; sourceTree = "<group>"; };
+		EAE6365423DAB8690059E34C /* Gear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gear.swift; sourceTree = "<group>"; };
+		EAE6365523DAB8690059E34C /* GearEq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GearEq.swift; sourceTree = "<group>"; };
+		EAE6365623DAB8690059E34C /* NormalHelicalGearEq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalHelicalGearEq.swift; sourceTree = "<group>"; };
+		EAE6365723DAB8690059E34C /* SpurGear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpurGear.swift; sourceTree = "<group>"; };
+		EAE6365823DAB86A0059E34C /* AngleHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngleHelper.swift; sourceTree = "<group>"; };
+		EAE6365923DAB86A0059E34C /* StressEquations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StressEquations.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAE6361023DAB80D0059E34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAE6360A23DAB80D0059E34C = {
+			isa = PBXGroup;
+			children = (
+				EAE6361523DAB80D0059E34C /* ActuatorGearing */,
+				EAE6361423DAB80D0059E34C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAE6361423DAB80D0059E34C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6361323DAB80D0059E34C /* ActuatorGearing */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAE6361523DAB80D0059E34C /* ActuatorGearing */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6363D23DAB8670059E34C /* main.swift */,
+				EAE6365823DAB86A0059E34C /* AngleHelper.swift */,
+				EAE6365123DAB8680059E34C /* FileHelper.swift */,
+				EAE6364123DAB8680059E34C /* GearMesh.swift */,
+				EAE6363C23DAB8670059E34C /* InvoluteFunction.swift */,
+				EAE6363E23DAB8680059E34C /* RunCalculations.swift */,
+				EAE6367723DAB8B80059E34C /* Stress */,
+				EAE6367823DAB8D10059E34C /* Gear */,
+				EAE6367923DAB8EB0059E34C /* GearEquations */,
+			);
+			path = ActuatorGearing;
+			sourceTree = "<group>";
+		};
+		EAE6367723DAB8B80059E34C /* Stress */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6365923DAB86A0059E34C /* StressEquations.swift */,
+			);
+			path = Stress;
+			sourceTree = "<group>";
+		};
+		EAE6367823DAB8D10059E34C /* Gear */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6365423DAB8690059E34C /* Gear.swift */,
+				EAE6363F23DAB8680059E34C /* HelicalGear.swift */,
+				EAE6365723DAB8690059E34C /* SpurGear.swift */,
+			);
+			path = Gear;
+			sourceTree = "<group>";
+		};
+		EAE6367923DAB8EB0059E34C /* GearEquations */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6365523DAB8690059E34C /* GearEq.swift */,
+				EAE6365323DAB8690059E34C /* HelicalGearEq.swift */,
+				EAE6364023DAB8680059E34C /* InterlGearEq.swift */,
+				EAE6365623DAB8690059E34C /* NormalHelicalGearEq.swift */,
+				EAE6365223DAB8680059E34C /* SpurGearEq.swift */,
+			);
+			path = GearEquations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAE6361223DAB80D0059E34C /* ActuatorGearing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE6361A23DAB80D0059E34C /* Build configuration list for PBXNativeTarget "ActuatorGearing" */;
+			buildPhases = (
+				EAE6360F23DAB80D0059E34C /* Sources */,
+				EAE6361023DAB80D0059E34C /* Frameworks */,
+				EAE6361123DAB80D0059E34C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActuatorGearing;
+			productName = ActuatorGearing;
+			productReference = EAE6361323DAB80D0059E34C /* ActuatorGearing */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAE6360B23DAB80D0059E34C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Luis Fernandez";
+				TargetAttributes = {
+					EAE6361223DAB80D0059E34C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = EAE6360E23DAB80D0059E34C /* Build configuration list for PBXProject "ActuatorGearing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EAE6360A23DAB80D0059E34C;
+			productRefGroup = EAE6361423DAB80D0059E34C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAE6361223DAB80D0059E34C /* ActuatorGearing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAE6360F23DAB80D0059E34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE6366F23DAB86A0059E34C /* SpurGearEq.swift in Sources */,
+				EAE6367123DAB86A0059E34C /* Gear.swift in Sources */,
+				EAE6367423DAB86A0059E34C /* SpurGear.swift in Sources */,
+				EAE6365F23DAB86A0059E34C /* GearMesh.swift in Sources */,
+				EAE6367223DAB86A0059E34C /* GearEq.swift in Sources */,
+				EAE6365A23DAB86A0059E34C /* InvoluteFunction.swift in Sources */,
+				EAE6365B23DAB86A0059E34C /* main.swift in Sources */,
+				EAE6367323DAB86A0059E34C /* NormalHelicalGearEq.swift in Sources */,
+				EAE6367023DAB86A0059E34C /* HelicalGearEq.swift in Sources */,
+				EAE6365C23DAB86A0059E34C /* RunCalculations.swift in Sources */,
+				EAE6366E23DAB86A0059E34C /* FileHelper.swift in Sources */,
+				EAE6365E23DAB86A0059E34C /* InterlGearEq.swift in Sources */,
+				EAE6367623DAB86A0059E34C /* StressEquations.swift in Sources */,
+				EAE6365D23DAB86A0059E34C /* HelicalGear.swift in Sources */,
+				EAE6367523DAB86A0059E34C /* AngleHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EAE6361823DAB80D0059E34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAE6361923DAB80D0059E34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EAE6361B23DAB80D0059E34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8X85QAK4A;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		EAE6361C23DAB80D0059E34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8X85QAK4A;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAE6360E23DAB80D0059E34C /* Build configuration list for PBXProject "ActuatorGearing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE6361823DAB80D0059E34C /* Debug */,
+				EAE6361923DAB80D0059E34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE6361A23DAB80D0059E34C /* Build configuration list for PBXNativeTarget "ActuatorGearing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE6361B23DAB80D0059E34C /* Debug */,
+				EAE6361C23DAB80D0059E34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAE6360B23DAB80D0059E34C /* Project object */;
+}
